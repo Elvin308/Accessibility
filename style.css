@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f7f7f7;
+	color: #222224;
+}
+
+h1, h2, h3 {
+	margin: 0 0 0.5rem 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.banner {
+	background-color: #e3350d;
+	color: white;
+	padding: 1rem 1.5rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+.logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.site-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.site-nav a {
+	display: block;
+	padding: 0.5rem 0;
+	font-weight: bold;
+}
+
+.site-nav a:hover {
+	text-decoration: underline;
+}
+
+.pokemon-info-panel {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+	padding: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+	.pokemon-info-panel {
+		grid-template-columns: 3fr 1fr;
+	}
+}
+
+.pokemon-section h1 {
+	color: #2a75bb;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+	.cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.pokemon-card {
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 0 2px 6px gray;
+	padding: 1rem;
+}
+
+.sprite {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+.type {
+	display: inline-block;
+	padding: 0.2rem 0.7rem;
+	border-radius: 999px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: white;
+	margin: 0.4rem 0;
+}
+
+.electric { background-color: #f0c420; }
+.fire     { background-color: #f08030; }
+.fairy    { background-color: #ee99ac; }
+
+.pokemon-card p {
+	margin: 0.3rem 0 0 0;
+	font-size: 0.9rem;
+	color: #555;
+}
+
+.starter-picker {
+	margin-top: 2rem;
+	background-color: white;
+	border-radius: 12px;
+	padding: 1.5rem;
+	box-shadow: 0 2px 6px gray;
+}
+
+.starter-picker label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+.starter-picker a {
+	color: #6890f0;
+}
+
+.trainer-section {
+	background-color: #2a75bb;
+	color: white;
+	border-radius: 12px;
+	padding: 1rem 1.5rem;
+}
+
+.stats-list li {
+	padding: 0.4rem 0;
+	border-bottom: 1px solid black;
+}
+
+.stats-list li:last-child {
+	border-bottom: none;
+}
+
+.contact-section {
+	max-width: 1100px;
+	margin: 2rem auto;
+	padding: 0 1.5rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.footer {
+	background-color: #222224;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+	margin-top: 2rem;
+}
