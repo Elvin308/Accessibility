@@ -91,6 +91,8 @@ ul {
 
 .sprite {
 	display: block;
+	width: 80px;
+	height: 80px;
 	margin-bottom: 0.5rem;
 }
 
@@ -104,7 +106,7 @@ ul {
 	margin: 0.4rem 0;
 }
 
-.electric { background-color: #f0c420; }
+.electric { background-color: #f0c420; margin-top: 40px;}
 .fire     { background-color: #f08030; }
 .fairy    { background-color: #ee99ac; }
 
