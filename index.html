@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
 	<head>
 		<title>Pokedex Trainer Hub</title>
 		<link rel="stylesheet" href="style.css">
@@ -24,21 +24,21 @@
 
 				<div class="cards">
 					<article class="pokemon-card">
-						<img class="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png" alt="Sprite image of Raikou">
+						<img class="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png">
 						<h2>Raikou</h2>
 						<span class="type electric">Electric</span>
 						<p>HP: 100 | ATK: 90 | DEF: 80</p>
 					</article>
 
 					<article class="pokemon-card">
-						<img class="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="Sprite image of Charizard">
+						<img class="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
 						<h2>Charizard</h2>
 						<span class="type fire">Fire</span>
 						<p>HP: 100 | ATK: 90 | DEF: 80</p>
 					</article>
 
 					<article class="pokemon-card">
-						<img class="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png" alt="Sprite image of Gardevoir">
+						<img class="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png">
 						<h3>Gardevoir</h3>
 						<span class="type fairy">Fairy</span>
 						<p>HP: 100 | ATK: 90 | DEF: 80</p>
@@ -48,11 +48,11 @@
 				<section class="starter-picker">
 					<h1>Choose Your Starter Pokemon</h1>
 
-					<label><input type="radio" name="starter" value="bulbasaur"> Bulbasaur</label>
-					<label><input type="radio" name="starter" value="charmander"> Charmander</label>
-					<label><input type="radio" name="starter" value="squirtle"> Squirtle</label>
+						<label><input type="radio" name="starter" value="bulbasaur"> Bulbasaur</label>
+						<label><input type="radio" name="starter" value="charmander"> Charmander</label>
+						<label><input type="radio" name="starter" value="squirtle"> Squirtle</label>
 
-					<p>Not sure which one to pick? <a href="#">click here</a> to learn more.</p>
+					<p>Not sure which one to pick? <a href="#">Click here</a> to learn more.</p>
 				</section>
 			</main>
 
@@ -70,10 +70,14 @@
 		<section class="contact-section">
 			<h2>Contact Us</h2>
 			<form>
-				<input type="text" placeholder="Your Name"><br><br>
-				<input type="email" placeholder="Your Email"><br><br>
-				<textarea placeholder="Your Message"></textarea><br><br>
-				<button type="submit">Send</button>
+				
+					<input id="name-id-input" type="text"><br><br>
+
+					<input id="email-id" type="email" placeholder="Your Email"><br><br>
+					
+					<textarea placeholder="Your Message"></textarea><br><br>
+
+					<button type="submit">Send</button>
 			</form>
 		</section>
 

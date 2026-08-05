@@ -102,13 +102,13 @@ ul {
 	border-radius: 999px;
 	font-size: 0.8rem;
 	font-weight: bold;
-	color: white;
+	color: black;
 	margin: 0.4rem 0;
 }
 
 .electric { background-color: #f0c420; margin-top: 40px;}
-.fire     { background-color: #f08030; }
-.fairy    { background-color: #ee99ac; }
+.fire     { background-color: #f08030; margin-top: 40px;}
+.fairy    { background-color: #ee99ac; margin-top: 40px;}
 
 .pokemon-card p {
 	margin: 0.3rem 0 0 0;
