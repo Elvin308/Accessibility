@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title>Pokedex Trainer Hub</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="assets/style.css">
 	</head>
 
 	<body>
@@ -48,9 +48,12 @@
 				<section class="starter-picker">
 					<h1>Choose Your Starter Pokemon</h1>
 
-						<label><input type="radio" name="starter" value="bulbasaur"> Bulbasaur</label>
-						<label><input type="radio" name="starter" value="charmander"> Charmander</label>
-						<label><input type="radio" name="starter" value="squirtle"> Squirtle</label>
+						<fieldset>
+							<legend>Pick your starter</legend>
+							<label><input type="radio" name="starter" value="bulbasaur"> Bulbasaur</label>
+							<label><input type="radio" name="starter" value="charmander"> Charmander</label>
+							<label><input type="radio" name="starter" value="squirtle"> Squirtle</label>
+						</fieldset>
 
 					<p>Not sure which one to pick? <a href="#">Click here</a> to learn more.</p>
 				</section>
@@ -70,14 +73,18 @@
 		<section class="contact-section">
 			<h2>Contact Us</h2>
 			<form>
-
+				<fieldset>
+					<legend>Email Details</legend>
+					<label for="name-id-input">Enter your name:</label>
 					<input id="name-id-input" type="text"><br><br>
 
+					<label for="email-id">Enter your email:</label>
 					<input id="email-id" type="email" placeholder="Your Email"><br><br>
 					
 					<textarea placeholder="Your Message"></textarea><br><br>
 
 					<button type="submit">Send</button>
+				</fieldset>
 			</form>
 		</section>
 
